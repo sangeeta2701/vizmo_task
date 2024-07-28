@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vizmo_task/Screens/event_list_screen.dart';
+import 'package:vizmo_task/Screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());

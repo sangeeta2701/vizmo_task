@@ -6,6 +6,8 @@ class ApiService {
   final String baseUrl =
       'https://mock.apidog.com/m1/561191-524377-default/Event';
 
+
+//get list of event
   Future<List<Datum>> fetchEvents(DateTime date) async {
     final response = await http.get(Uri.parse(baseUrl));
     if (response.statusCode == 200) {
@@ -18,6 +20,7 @@ class ApiService {
     }
   }
 
+//edit event
   Future<void> updateEvent(Datum event) async {
     final response = await http.put(
       Uri.parse('$baseUrl/${event.id}'),
