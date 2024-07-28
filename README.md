@@ -1,6 +1,6 @@
 # vizmo_task
 
-A new Flutter project.
+An event calendar app.
 
 ## Getting Started
 
